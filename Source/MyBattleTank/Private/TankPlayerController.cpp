@@ -3,7 +3,22 @@
 
 #include "TankPlayerController.h"
 
-ATank* ATankPlayerController::GetControlledTandk() const
+void ATankPlayerController::BeginPlay()
+{
+    Super::BeginPlay();
+//Protecting Pointer
+    auto ControlledTank = GetControlledTank();
+    if(!ControlledTank)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("PlayController not possesing a tank"));
+    }
+    else
+    {
+		UE_LOG(LogTemp, Warning, TEXT("PlayerController possessing: %s"), *(ControlledTank->GetName()));
+	}
+}
+
+ATank* ATankPlayerController::GetControlledTank() const
 {
     return Cast<ATank>(GetPawn());
 }

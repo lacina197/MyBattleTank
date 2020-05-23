@@ -16,6 +16,9 @@ class MYBATTLETANK_API ATankPlayerController : public APlayerController
 	GENERATED_BODY()
 
 public:
-	ATank* GetControlledTandk() const;
+	ATank* GetControlledTank() const;
+
+	virtual void BeginPlay() override;
+//Inheritance tree den yararlandığından emin olmak için override yazalım.
 	
 };
