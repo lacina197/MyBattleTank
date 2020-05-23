@@ -1,7 +1,9 @@
 {
 	"files.exclude": {
+		"D:/Unreal Repo/BattleTank/MyBattleTank/.git": true,
 		"D:/Unreal Repo/BattleTank/MyBattleTank/.vscode": true,
 		"D:/Unreal Repo/BattleTank/MyBattleTank/Content": true,
-		"D:/Unreal Repo/BattleTank/MyBattleTank/Intermediate": true
+		"D:/Unreal Repo/BattleTank/MyBattleTank/Intermediate": true,
+		"D:/Unreal Repo/BattleTank/MyBattleTank/Saved": true
 	}
 }
