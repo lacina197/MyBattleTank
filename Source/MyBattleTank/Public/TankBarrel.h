@@ -29,3 +29,4 @@ private:
 	float  MinElevationDegrees = 0;
 
 };
+

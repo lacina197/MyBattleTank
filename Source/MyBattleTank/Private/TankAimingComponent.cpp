@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "TankBarrel.h"
+#include "TankTurret.h"
 #include "TankAimingComponent.h"
 
 // Sets default values for this component's properties
@@ -16,9 +17,15 @@ UTankAimingComponent::UTankAimingComponent()
 
 void UTankAimingComponent::setBarrelReference(UTankBarrel* BarrelToSet)
 {
+	if(!BarrelToSet) { return; }
 	Barrel = BarrelToSet;
 }
 
+void UTankAimingComponent::setTurretReference(UTankTurret* TurretToSet)
+{
+	if(!TurretToSet) { return; }
+	Turret = TurretToSet;
+}
 
 void UTankAimingComponent::AimAt(FVector HitLocation, float LaunchSpeed)
 {
