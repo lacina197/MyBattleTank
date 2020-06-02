@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "MyBattleTank (Debug)",
+			"request": "launch",
+			"preLaunchTask": "MyBattleTank Linux Debug Build",
+			"program": "/home/lacin/Desktop/MyBattleTank/Binaries/Linux/MyBattleTank-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/lacin/Desktop/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "MyBattleTank (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "MyBattleTank Linux DebugGame Build",
+			"program": "/home/lacin/Desktop/MyBattleTank/Binaries/Linux/MyBattleTank-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/lacin/Desktop/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "MyBattleTank (Development)",
+			"request": "launch",
+			"preLaunchTask": "MyBattleTank Linux Development Build",
+			"program": "/home/lacin/Desktop/MyBattleTank/Binaries/Linux/MyBattleTank",
+			"args": [
+			],
+			"cwd": "/home/lacin/Desktop/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "MyBattleTank (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "MyBattleTank Linux Shipping Build",
+			"program": "/home/lacin/Desktop/MyBattleTank/Binaries/Linux/MyBattleTank-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/lacin/Desktop/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "MyBattleTank (Test)",
+			"request": "launch",
+			"preLaunchTask": "MyBattleTank Linux Test Build",
+			"program": "/home/lacin/Desktop/MyBattleTank/Binaries/Linux/MyBattleTank-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/lacin/Desktop/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "MyBattleTankEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "MyBattleTankEditor Linux Debug Build",
+			"program": "/home/lacin/Desktop/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject"
+			],
+			"cwd": "/home/lacin/Desktop/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "MyBattleTankEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "MyBattleTankEditor Linux DebugGame Build",
+			"program": "/home/lacin/Desktop/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject"
+			],
+			"cwd": "/home/lacin/Desktop/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "MyBattleTankEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "MyBattleTankEditor Linux Development Build",
+			"program": "/home/lacin/Desktop/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject"
+			],
+			"cwd": "/home/lacin/Desktop/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/lacin/Desktop/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/lacin/Desktop/UnrealEngine"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"/home/lacin/Desktop/MyBattleTank/.git": true,
+		"/home/lacin/Desktop/MyBattleTank/.vscode": true,
+		"/home/lacin/Desktop/MyBattleTank/Content": true,
+		"/home/lacin/Desktop/MyBattleTank/Intermediate": true,
+		"/home/lacin/Desktop/MyBattleTank/Saved": true
+	}
+}

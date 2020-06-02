@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "MyBattleTank Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Mac",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Mac",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Mac",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Mac",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Mac",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Mac",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Mac",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Mac",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Mac",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Mac",
+				"Shipping",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Mac",
+				"Shipping",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Mac",
+				"Shipping",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Mac",
+				"Test",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Mac",
+				"Test",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Mac",
+				"Test",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"IOS",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"IOS",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"IOS",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"IOS",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"IOS",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"IOS",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"IOS",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"IOS",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"IOS",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"IOS",
+				"Shipping",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"IOS",
+				"Shipping",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"IOS",
+				"Shipping",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"IOS",
+				"Test",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"IOS",
+				"Test",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"IOS",
+				"Test",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"HTML5",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"HTML5",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"HTML5",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"HTML5",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"HTML5",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"HTML5",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"HTML5",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"HTML5",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"HTML5",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"HTML5",
+				"Shipping",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"HTML5",
+				"Shipping",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"HTML5",
+				"Shipping",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"HTML5",
+				"Test",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"HTML5",
+				"Test",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"HTML5",
+				"Test",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Linux",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Linux",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Linux",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Linux",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Linux",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Linux",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Linux",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Linux",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Linux",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Linux",
+				"Shipping",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Linux",
+				"Shipping",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Linux",
+				"Shipping",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Linux",
+				"Test",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Linux",
+				"Test",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"Linux",
+				"Test",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"TVOS",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"TVOS",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"TVOS",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"TVOS",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"TVOS",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"TVOS",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"TVOS",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"TVOS",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"TVOS",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"TVOS",
+				"Shipping",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"TVOS",
+				"Shipping",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"TVOS",
+				"Shipping",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"TVOS",
+				"Test",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"TVOS",
+				"Test",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTank TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTank TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTank",
+				"TVOS",
+				"Test",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTankEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTankEditor",
+				"Linux",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTankEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTankEditor",
+				"Linux",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTankEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTankEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTankEditor",
+				"Linux",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTankEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTankEditor",
+				"Linux",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTankEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTankEditor",
+				"Linux",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTankEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTankEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTankEditor",
+				"Linux",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTankEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTankEditor",
+				"Linux",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTankEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTankEditor",
+				"Linux",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTankEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTankEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTankEditor",
+				"Linux",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTankEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTankEditor",
+				"Mac",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTankEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTankEditor",
+				"Mac",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTankEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTankEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTankEditor",
+				"Mac",
+				"Debug",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTankEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTankEditor",
+				"Mac",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTankEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTankEditor",
+				"Mac",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTankEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTankEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTankEditor",
+				"Mac",
+				"DebugGame",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTankEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTankEditor",
+				"Mac",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTankEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTankEditor",
+				"Mac",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyBattleTankEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		},
+		{
+			"label": "MyBattleTankEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MyBattleTankEditor",
+				"Mac",
+				"Development",
+				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lacin/Desktop/UnrealEngine"
+			}
+		}
+	]
+}
