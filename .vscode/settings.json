@@ -1,9 +1,11 @@
 {
 	"files.exclude": {
-		"/home/lacin/Desktop/MyBattleTank/.git": true,
-		"/home/lacin/Desktop/MyBattleTank/.vscode": true,
-		"/home/lacin/Desktop/MyBattleTank/Content": true,
-		"/home/lacin/Desktop/MyBattleTank/Intermediate": true,
-		"/home/lacin/Desktop/MyBattleTank/Saved": true
+		"/home/lacin/Documents/Unreal Projects/MyBattleTank/.git": true,
+		"/home/lacin/Documents/Unreal Projects/MyBattleTank/.kdev4": true,
+		"/home/lacin/Documents/Unreal Projects/MyBattleTank/.vscode": true,
+		"/home/lacin/Documents/Unreal Projects/MyBattleTank/Content": true,
+		"/home/lacin/Documents/Unreal Projects/MyBattleTank/DerivedDataCache": true,
+		"/home/lacin/Documents/Unreal Projects/MyBattleTank/Intermediate": true,
+		"/home/lacin/Documents/Unreal Projects/MyBattleTank/Saved": true
 	}
 }

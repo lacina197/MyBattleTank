@@ -5,7 +5,7 @@
 			"name": "MyBattleTank (Debug)",
 			"request": "launch",
 			"preLaunchTask": "MyBattleTank Linux Debug Build",
-			"program": "/home/lacin/Desktop/MyBattleTank/Binaries/Linux/MyBattleTank-Linux-Debug",
+			"program": "/home/lacin/Documents/Unreal Projects/MyBattleTank/Binaries/Linux/MyBattleTank-Linux-Debug",
 			"args": [
 			],
 			"cwd": "/home/lacin/Desktop/UnrealEngine",
@@ -15,7 +15,7 @@
 			"name": "MyBattleTank (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "MyBattleTank Linux DebugGame Build",
-			"program": "/home/lacin/Desktop/MyBattleTank/Binaries/Linux/MyBattleTank-Linux-DebugGame",
+			"program": "/home/lacin/Documents/Unreal Projects/MyBattleTank/Binaries/Linux/MyBattleTank-Linux-DebugGame",
 			"args": [
 			],
 			"cwd": "/home/lacin/Desktop/UnrealEngine",
@@ -25,7 +25,7 @@
 			"name": "MyBattleTank (Development)",
 			"request": "launch",
 			"preLaunchTask": "MyBattleTank Linux Development Build",
-			"program": "/home/lacin/Desktop/MyBattleTank/Binaries/Linux/MyBattleTank",
+			"program": "/home/lacin/Documents/Unreal Projects/MyBattleTank/Binaries/Linux/MyBattleTank",
 			"args": [
 			],
 			"cwd": "/home/lacin/Desktop/UnrealEngine",
@@ -35,7 +35,7 @@
 			"name": "MyBattleTank (Shipping)",
 			"request": "launch",
 			"preLaunchTask": "MyBattleTank Linux Shipping Build",
-			"program": "/home/lacin/Desktop/MyBattleTank/Binaries/Linux/MyBattleTank-Linux-Shipping",
+			"program": "/home/lacin/Documents/Unreal Projects/MyBattleTank/Binaries/Linux/MyBattleTank-Linux-Shipping",
 			"args": [
 			],
 			"cwd": "/home/lacin/Desktop/UnrealEngine",
@@ -45,7 +45,7 @@
 			"name": "MyBattleTank (Test)",
 			"request": "launch",
 			"preLaunchTask": "MyBattleTank Linux Test Build",
-			"program": "/home/lacin/Desktop/MyBattleTank/Binaries/Linux/MyBattleTank-Linux-Test",
+			"program": "/home/lacin/Documents/Unreal Projects/MyBattleTank/Binaries/Linux/MyBattleTank-Linux-Test",
 			"args": [
 			],
 			"cwd": "/home/lacin/Desktop/UnrealEngine",
@@ -57,7 +57,7 @@
 			"preLaunchTask": "MyBattleTankEditor Linux Debug Build",
 			"program": "/home/lacin/Desktop/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
 			"args": [
-				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject"
+				"/home/lacin/Documents/Unreal Projects/MyBattleTank/MyBattleTank.uproject"
 			],
 			"cwd": "/home/lacin/Desktop/UnrealEngine",
 			"type": "lldb"
@@ -68,7 +68,7 @@
 			"preLaunchTask": "MyBattleTankEditor Linux DebugGame Build",
 			"program": "/home/lacin/Desktop/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
 			"args": [
-				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject"
+				"/home/lacin/Documents/Unreal Projects/MyBattleTank/MyBattleTank.uproject"
 			],
 			"cwd": "/home/lacin/Desktop/UnrealEngine",
 			"type": "lldb"
@@ -79,7 +79,7 @@
 			"preLaunchTask": "MyBattleTankEditor Linux Development Build",
 			"program": "/home/lacin/Desktop/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
 			"args": [
-				"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject"
+				"/home/lacin/Documents/Unreal Projects/MyBattleTank/MyBattleTank.uproject"
 			],
 			"cwd": "/home/lacin/Desktop/UnrealEngine",
 			"type": "lldb"
@@ -93,7 +93,7 @@
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=\"/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject\"",
+				"-project=\"/home/lacin/Documents/Unreal Projects/MyBattleTank/MyBattleTank.uproject\"",
 				"-game",
 				"-engine"
 			],

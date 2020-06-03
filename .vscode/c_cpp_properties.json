@@ -4,7 +4,7 @@
 			"name": "UnrealEngine",
 			"includePath": [
 				"/home/lacin/Desktop/UnrealEngine/Engine/Source",
-				"/home/lacin/Desktop/MyBattleTank/Source/MyBattleTank/Private",
+				"/home/lacin/Documents/Unreal Projects/MyBattleTank/Source/MyBattleTank/Private",
 				"/home/lacin/Desktop/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Engine",
 				"/home/lacin/Desktop/UnrealEngine/Engine/Source/Runtime",
 				"/home/lacin/Desktop/UnrealEngine/Engine/Source/Runtime/Engine/Classes",
@@ -397,9 +397,11 @@
 				"/home/lacin/Desktop/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP",
 				"/home/lacin/Desktop/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP/Encoders",
 				"/home/lacin/Desktop/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/SoundFileIO",
-				"/home/lacin/Desktop/MyBattleTank/Source",
-				"/home/lacin/Desktop/MyBattleTank/Source/MyBattleTank/Public",
-				"/home/lacin/Desktop/MyBattleTank/Source/MyBattleTank",
+				"/home/lacin/Documents/Unreal Projects/MyBattleTank/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MyBattleTank",
+				"/home/lacin/Documents/Unreal Projects/MyBattleTank/Source",
+				"/home/lacin/Documents/Unreal Projects/MyBattleTank/Source/MyBattleTank/Public",
+				"/home/lacin/Documents/Unreal Projects/MyBattleTank/Source/MyBattleTank",
+				"/home/lacin/Documents/Unreal Projects/MyBattleTank/Source/MyBattleTank/Public/.vscode",
 				"/usr/include",
 				"/usr/local/include"
 			],

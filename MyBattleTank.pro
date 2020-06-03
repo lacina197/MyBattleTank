@@ -10,9 +10,9 @@ CONFIG -= qt
 TARGET = UE4 
 
 unrealRootPath=/home/lacin/Desktop/UnrealEngine
-MyBattleTankRootPath=/home/lacin/Desktop/MyBattleTank
+MyBattleTankRootPath=/home/lacin/Documents/Unreal Projects/MyBattleTank
 
-gameProjectFile=/home/lacin/Desktop/MyBattleTank/MyBattleTank.uproject
+gameProjectFile=/home/lacin/Documents/Unreal Projects/MyBattleTank/MyBattleTank.uproject
 build=bash $$unrealRootPath/Engine/Build/BatchFiles/Linux/RunMono.sh $$unrealRootPath/Engine/Binaries/DotNET/UnrealBuildTool.exe
 
 args=$(ARGS)
@@ -22,6 +22,192 @@ include(MyBattleTankHeader.pri)
 include(MyBattleTankConfig.pri)
 include(MyBattleTankIncludes.pri)
 include(MyBattleTankDefines.pri)
+
+BlankProgram-Linux-Debug.commands = $$build BlankProgram Linux Debug  $$args
+BlankProgram-Linux-DebugGame.commands = $$build BlankProgram Linux DebugGame  $$args
+BlankProgram-Linux-Shipping.commands = $$build BlankProgram Linux Shipping  $$args
+BlankProgram-Linux-Test.commands = $$build BlankProgram Linux Test  $$args
+BlankProgram.commands = $$build BlankProgram Linux Development  $$args
+
+BuildPatchTool-Linux-Debug.commands = $$build BuildPatchTool Linux Debug  $$args
+BuildPatchTool-Linux-DebugGame.commands = $$build BuildPatchTool Linux DebugGame  $$args
+BuildPatchTool-Linux-Shipping.commands = $$build BuildPatchTool Linux Shipping  $$args
+BuildPatchTool-Linux-Test.commands = $$build BuildPatchTool Linux Test  $$args
+BuildPatchTool.commands = $$build BuildPatchTool Linux Development  $$args
+
+CrashReportClient-Linux-Debug.commands = $$build CrashReportClient Linux Debug  $$args
+CrashReportClient-Linux-DebugGame.commands = $$build CrashReportClient Linux DebugGame  $$args
+CrashReportClient-Linux-Shipping.commands = $$build CrashReportClient Linux Shipping  $$args
+CrashReportClient-Linux-Test.commands = $$build CrashReportClient Linux Test  $$args
+CrashReportClient.commands = $$build CrashReportClient Linux Development  $$args
+
+UnrealLaunchDaemon-Linux-Debug.commands = $$build UnrealLaunchDaemon Linux Debug  $$args
+UnrealLaunchDaemon-Linux-DebugGame.commands = $$build UnrealLaunchDaemon Linux DebugGame  $$args
+UnrealLaunchDaemon-Linux-Shipping.commands = $$build UnrealLaunchDaemon Linux Shipping  $$args
+UnrealLaunchDaemon-Linux-Test.commands = $$build UnrealLaunchDaemon Linux Test  $$args
+UnrealLaunchDaemon.commands = $$build UnrealLaunchDaemon Linux Development  $$args
+
+LiveCodingConsole-Linux-Debug.commands = $$build LiveCodingConsole Linux Debug  $$args
+LiveCodingConsole-Linux-DebugGame.commands = $$build LiveCodingConsole Linux DebugGame  $$args
+LiveCodingConsole-Linux-Shipping.commands = $$build LiveCodingConsole Linux Shipping  $$args
+LiveCodingConsole-Linux-Test.commands = $$build LiveCodingConsole Linux Test  $$args
+LiveCodingConsole.commands = $$build LiveCodingConsole Linux Development  $$args
+
+DsymExporter-Linux-Debug.commands = $$build DsymExporter Linux Debug  $$args
+DsymExporter-Linux-DebugGame.commands = $$build DsymExporter Linux DebugGame  $$args
+DsymExporter-Linux-Shipping.commands = $$build DsymExporter Linux Shipping  $$args
+DsymExporter-Linux-Test.commands = $$build DsymExporter Linux Test  $$args
+DsymExporter.commands = $$build DsymExporter Linux Development  $$args
+
+UE4EditorServices-Linux-Debug.commands = $$build UE4EditorServices Linux Debug  $$args
+UE4EditorServices-Linux-DebugGame.commands = $$build UE4EditorServices Linux DebugGame  $$args
+UE4EditorServices-Linux-Shipping.commands = $$build UE4EditorServices Linux Shipping  $$args
+UE4EditorServices-Linux-Test.commands = $$build UE4EditorServices Linux Test  $$args
+UE4EditorServices.commands = $$build UE4EditorServices Linux Development  $$args
+
+UnrealAtoS-Linux-Debug.commands = $$build UnrealAtoS Linux Debug  $$args
+UnrealAtoS-Linux-DebugGame.commands = $$build UnrealAtoS Linux DebugGame  $$args
+UnrealAtoS-Linux-Shipping.commands = $$build UnrealAtoS Linux Shipping  $$args
+UnrealAtoS-Linux-Test.commands = $$build UnrealAtoS Linux Test  $$args
+UnrealAtoS.commands = $$build UnrealAtoS Linux Development  $$args
+
+MayaLiveLinkPlugin2016-Linux-Debug.commands = $$build MayaLiveLinkPlugin2016 Linux Debug  $$args
+MayaLiveLinkPlugin2016-Linux-DebugGame.commands = $$build MayaLiveLinkPlugin2016 Linux DebugGame  $$args
+MayaLiveLinkPlugin2016-Linux-Shipping.commands = $$build MayaLiveLinkPlugin2016 Linux Shipping  $$args
+MayaLiveLinkPlugin2016-Linux-Test.commands = $$build MayaLiveLinkPlugin2016 Linux Test  $$args
+MayaLiveLinkPlugin2016.commands = $$build MayaLiveLinkPlugin2016 Linux Development  $$args
+
+MayaLiveLinkPlugin2017-Linux-Debug.commands = $$build MayaLiveLinkPlugin2017 Linux Debug  $$args
+MayaLiveLinkPlugin2017-Linux-DebugGame.commands = $$build MayaLiveLinkPlugin2017 Linux DebugGame  $$args
+MayaLiveLinkPlugin2017-Linux-Shipping.commands = $$build MayaLiveLinkPlugin2017 Linux Shipping  $$args
+MayaLiveLinkPlugin2017-Linux-Test.commands = $$build MayaLiveLinkPlugin2017 Linux Test  $$args
+MayaLiveLinkPlugin2017.commands = $$build MayaLiveLinkPlugin2017 Linux Development  $$args
+
+MayaLiveLinkPlugin2018-Linux-Debug.commands = $$build MayaLiveLinkPlugin2018 Linux Debug  $$args
+MayaLiveLinkPlugin2018-Linux-DebugGame.commands = $$build MayaLiveLinkPlugin2018 Linux DebugGame  $$args
+MayaLiveLinkPlugin2018-Linux-Shipping.commands = $$build MayaLiveLinkPlugin2018 Linux Shipping  $$args
+MayaLiveLinkPlugin2018-Linux-Test.commands = $$build MayaLiveLinkPlugin2018 Linux Test  $$args
+MayaLiveLinkPlugin2018.commands = $$build MayaLiveLinkPlugin2018 Linux Development  $$args
+
+MinidumpDiagnostics-Linux-Debug.commands = $$build MinidumpDiagnostics Linux Debug  $$args
+MinidumpDiagnostics-Linux-DebugGame.commands = $$build MinidumpDiagnostics Linux DebugGame  $$args
+MinidumpDiagnostics-Linux-Shipping.commands = $$build MinidumpDiagnostics Linux Shipping  $$args
+MinidumpDiagnostics-Linux-Test.commands = $$build MinidumpDiagnostics Linux Test  $$args
+MinidumpDiagnostics.commands = $$build MinidumpDiagnostics Linux Development  $$args
+
+WebRTCProxy-Linux-Debug.commands = $$build WebRTCProxy Linux Debug  $$args
+WebRTCProxy-Linux-DebugGame.commands = $$build WebRTCProxy Linux DebugGame  $$args
+WebRTCProxy-Linux-Shipping.commands = $$build WebRTCProxy Linux Shipping  $$args
+WebRTCProxy-Linux-Test.commands = $$build WebRTCProxy Linux Test  $$args
+WebRTCProxy.commands = $$build WebRTCProxy Linux Development  $$args
+
+ShaderCompileWorker-Linux-Debug.commands = $$build ShaderCompileWorker Linux Debug  $$args
+ShaderCompileWorker-Linux-DebugGame.commands = $$build ShaderCompileWorker Linux DebugGame  $$args
+ShaderCompileWorker-Linux-Shipping.commands = $$build ShaderCompileWorker Linux Shipping  $$args
+ShaderCompileWorker-Linux-Test.commands = $$build ShaderCompileWorker Linux Test  $$args
+ShaderCompileWorker.commands = $$build ShaderCompileWorker Linux Development  $$args
+
+SlateViewer-Linux-Debug.commands = $$build SlateViewer Linux Debug  $$args
+SlateViewer-Linux-DebugGame.commands = $$build SlateViewer Linux DebugGame  $$args
+SlateViewer-Linux-Shipping.commands = $$build SlateViewer Linux Shipping  $$args
+SlateViewer-Linux-Test.commands = $$build SlateViewer Linux Test  $$args
+SlateViewer.commands = $$build SlateViewer Linux Development  $$args
+
+SymbolDebugger-Linux-Debug.commands = $$build SymbolDebugger Linux Debug  $$args
+SymbolDebugger-Linux-DebugGame.commands = $$build SymbolDebugger Linux DebugGame  $$args
+SymbolDebugger-Linux-Shipping.commands = $$build SymbolDebugger Linux Shipping  $$args
+SymbolDebugger-Linux-Test.commands = $$build SymbolDebugger Linux Test  $$args
+SymbolDebugger.commands = $$build SymbolDebugger Linux Development  $$args
+
+TestPAL-Linux-Debug.commands = $$build TestPAL Linux Debug  $$args
+TestPAL-Linux-DebugGame.commands = $$build TestPAL Linux DebugGame  $$args
+TestPAL-Linux-Shipping.commands = $$build TestPAL Linux Shipping  $$args
+TestPAL-Linux-Test.commands = $$build TestPAL Linux Test  $$args
+TestPAL.commands = $$build TestPAL Linux Development  $$args
+
+UnrealCEFSubProcess-Linux-Debug.commands = $$build UnrealCEFSubProcess Linux Debug  $$args
+UnrealCEFSubProcess-Linux-DebugGame.commands = $$build UnrealCEFSubProcess Linux DebugGame  $$args
+UnrealCEFSubProcess-Linux-Shipping.commands = $$build UnrealCEFSubProcess Linux Shipping  $$args
+UnrealCEFSubProcess-Linux-Test.commands = $$build UnrealCEFSubProcess Linux Test  $$args
+UnrealCEFSubProcess.commands = $$build UnrealCEFSubProcess Linux Development  $$args
+
+UnrealFileServer-Linux-Debug.commands = $$build UnrealFileServer Linux Debug  $$args
+UnrealFileServer-Linux-DebugGame.commands = $$build UnrealFileServer Linux DebugGame  $$args
+UnrealFileServer-Linux-Shipping.commands = $$build UnrealFileServer Linux Shipping  $$args
+UnrealFileServer-Linux-Test.commands = $$build UnrealFileServer Linux Test  $$args
+UnrealFileServer.commands = $$build UnrealFileServer Linux Development  $$args
+
+UnrealFrontend-Linux-Debug.commands = $$build UnrealFrontend Linux Debug  $$args
+UnrealFrontend-Linux-DebugGame.commands = $$build UnrealFrontend Linux DebugGame  $$args
+UnrealFrontend-Linux-Shipping.commands = $$build UnrealFrontend Linux Shipping  $$args
+UnrealFrontend-Linux-Test.commands = $$build UnrealFrontend Linux Test  $$args
+UnrealFrontend.commands = $$build UnrealFrontend Linux Development  $$args
+
+UnrealHeaderTool-Linux-Debug.commands = $$build UnrealHeaderTool Linux Debug  $$args
+UnrealHeaderTool-Linux-DebugGame.commands = $$build UnrealHeaderTool Linux DebugGame  $$args
+UnrealHeaderTool-Linux-Shipping.commands = $$build UnrealHeaderTool Linux Shipping  $$args
+UnrealHeaderTool-Linux-Test.commands = $$build UnrealHeaderTool Linux Test  $$args
+UnrealHeaderTool.commands = $$build UnrealHeaderTool Linux Development  $$args
+
+UnrealLightmass-Linux-Debug.commands = $$build UnrealLightmass Linux Debug  $$args
+UnrealLightmass-Linux-DebugGame.commands = $$build UnrealLightmass Linux DebugGame  $$args
+UnrealLightmass-Linux-Shipping.commands = $$build UnrealLightmass Linux Shipping  $$args
+UnrealLightmass-Linux-Test.commands = $$build UnrealLightmass Linux Test  $$args
+UnrealLightmass.commands = $$build UnrealLightmass Linux Development  $$args
+
+UnrealMultiUserServer-Linux-Debug.commands = $$build UnrealMultiUserServer Linux Debug  $$args
+UnrealMultiUserServer-Linux-DebugGame.commands = $$build UnrealMultiUserServer Linux DebugGame  $$args
+UnrealMultiUserServer-Linux-Shipping.commands = $$build UnrealMultiUserServer Linux Shipping  $$args
+UnrealMultiUserServer-Linux-Test.commands = $$build UnrealMultiUserServer Linux Test  $$args
+UnrealMultiUserServer.commands = $$build UnrealMultiUserServer Linux Development  $$args
+
+UnrealPak-Linux-Debug.commands = $$build UnrealPak Linux Debug  $$args
+UnrealPak-Linux-DebugGame.commands = $$build UnrealPak Linux DebugGame  $$args
+UnrealPak-Linux-Shipping.commands = $$build UnrealPak Linux Shipping  $$args
+UnrealPak-Linux-Test.commands = $$build UnrealPak Linux Test  $$args
+UnrealPak.commands = $$build UnrealPak Linux Development  $$args
+
+UnrealVersionSelector-Linux-Debug.commands = $$build UnrealVersionSelector Linux Debug  $$args
+UnrealVersionSelector-Linux-DebugGame.commands = $$build UnrealVersionSelector Linux DebugGame  $$args
+UnrealVersionSelector-Linux-Shipping.commands = $$build UnrealVersionSelector Linux Shipping  $$args
+UnrealVersionSelector-Linux-Test.commands = $$build UnrealVersionSelector Linux Test  $$args
+UnrealVersionSelector.commands = $$build UnrealVersionSelector Linux Development  $$args
+
+UnrealWatchdog-Linux-Debug.commands = $$build UnrealWatchdog Linux Debug  $$args
+UnrealWatchdog-Linux-DebugGame.commands = $$build UnrealWatchdog Linux DebugGame  $$args
+UnrealWatchdog-Linux-Shipping.commands = $$build UnrealWatchdog Linux Shipping  $$args
+UnrealWatchdog-Linux-Test.commands = $$build UnrealWatchdog Linux Test  $$args
+UnrealWatchdog.commands = $$build UnrealWatchdog Linux Development  $$args
+
+BootstrapPackagedGame-Linux-Debug.commands = $$build BootstrapPackagedGame Linux Debug  $$args
+BootstrapPackagedGame-Linux-DebugGame.commands = $$build BootstrapPackagedGame Linux DebugGame  $$args
+BootstrapPackagedGame-Linux-Shipping.commands = $$build BootstrapPackagedGame Linux Shipping  $$args
+BootstrapPackagedGame-Linux-Test.commands = $$build BootstrapPackagedGame Linux Test  $$args
+BootstrapPackagedGame.commands = $$build BootstrapPackagedGame Linux Development  $$args
+
+UE4Client-Linux-Debug.commands = $$build UE4Client Linux Debug  $$args
+UE4Client-Linux-DebugGame.commands = $$build UE4Client Linux DebugGame  $$args
+UE4Client-Linux-Shipping.commands = $$build UE4Client Linux Shipping  $$args
+UE4Client-Linux-Test.commands = $$build UE4Client Linux Test  $$args
+UE4Client.commands = $$build UE4Client Linux Development  $$args
+
+UE4Editor-Linux-Debug.commands = $$build UE4Editor Linux Debug  $$args
+UE4Editor-Linux-DebugGame.commands = $$build UE4Editor Linux DebugGame  $$args
+UE4Editor-Linux-Shipping.commands = $$build UE4Editor Linux Shipping  $$args
+UE4Editor-Linux-Test.commands = $$build UE4Editor Linux Test  $$args
+UE4Editor.commands = $$build UE4Editor Linux Development  $$args
+
+UE4Game-Linux-Debug.commands = $$build UE4Game Linux Debug  $$args
+UE4Game-Linux-DebugGame.commands = $$build UE4Game Linux DebugGame  $$args
+UE4Game-Linux-Shipping.commands = $$build UE4Game Linux Shipping  $$args
+UE4Game-Linux-Test.commands = $$build UE4Game Linux Test  $$args
+UE4Game.commands = $$build UE4Game Linux Development  $$args
+
+UE4Server-Linux-Debug.commands = $$build UE4Server Linux Debug  $$args
+UE4Server-Linux-DebugGame.commands = $$build UE4Server Linux DebugGame  $$args
+UE4Server-Linux-Shipping.commands = $$build UE4Server Linux Shipping  $$args
+UE4Server-Linux-Test.commands = $$build UE4Server Linux Test  $$args
+UE4Server.commands = $$build UE4Server Linux Development  $$args
 
 MyBattleTank-Linux-Debug.commands = $$build MyBattleTank Linux Debug  -project="\"$$gameProjectFile\"" $$args
 MyBattleTank-Linux-DebugGame.commands = $$build MyBattleTank Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
@@ -35,203 +221,7 @@ MyBattleTankEditor-Linux-Shipping.commands = $$build MyBattleTankEditor Linux Sh
 MyBattleTankEditor-Linux-Test.commands = $$build MyBattleTankEditor Linux Test  -project="\"$$gameProjectFile\"" $$args
 MyBattleTankEditor.commands = $$build MyBattleTankEditor Linux Development  -project="\"$$gameProjectFile\"" $$args
 
-BlankProgram-Linux-Debug.commands = $$build BlankProgram Linux Debug  -project="\"$$gameProjectFile\"" $$args
-BlankProgram-Linux-DebugGame.commands = $$build BlankProgram Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-BlankProgram-Linux-Shipping.commands = $$build BlankProgram Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-BlankProgram-Linux-Test.commands = $$build BlankProgram Linux Test  -project="\"$$gameProjectFile\"" $$args
-BlankProgram.commands = $$build BlankProgram Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-BuildPatchTool-Linux-Debug.commands = $$build BuildPatchTool Linux Debug  -project="\"$$gameProjectFile\"" $$args
-BuildPatchTool-Linux-DebugGame.commands = $$build BuildPatchTool Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-BuildPatchTool-Linux-Shipping.commands = $$build BuildPatchTool Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-BuildPatchTool-Linux-Test.commands = $$build BuildPatchTool Linux Test  -project="\"$$gameProjectFile\"" $$args
-BuildPatchTool.commands = $$build BuildPatchTool Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-CrashReportClient-Linux-Debug.commands = $$build CrashReportClient Linux Debug  -project="\"$$gameProjectFile\"" $$args
-CrashReportClient-Linux-DebugGame.commands = $$build CrashReportClient Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-CrashReportClient-Linux-Shipping.commands = $$build CrashReportClient Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-CrashReportClient-Linux-Test.commands = $$build CrashReportClient Linux Test  -project="\"$$gameProjectFile\"" $$args
-CrashReportClient.commands = $$build CrashReportClient Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-UnrealLaunchDaemon-Linux-Debug.commands = $$build UnrealLaunchDaemon Linux Debug  -project="\"$$gameProjectFile\"" $$args
-UnrealLaunchDaemon-Linux-DebugGame.commands = $$build UnrealLaunchDaemon Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-UnrealLaunchDaemon-Linux-Shipping.commands = $$build UnrealLaunchDaemon Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-UnrealLaunchDaemon-Linux-Test.commands = $$build UnrealLaunchDaemon Linux Test  -project="\"$$gameProjectFile\"" $$args
-UnrealLaunchDaemon.commands = $$build UnrealLaunchDaemon Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-LiveCodingConsole-Linux-Debug.commands = $$build LiveCodingConsole Linux Debug  -project="\"$$gameProjectFile\"" $$args
-LiveCodingConsole-Linux-DebugGame.commands = $$build LiveCodingConsole Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-LiveCodingConsole-Linux-Shipping.commands = $$build LiveCodingConsole Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-LiveCodingConsole-Linux-Test.commands = $$build LiveCodingConsole Linux Test  -project="\"$$gameProjectFile\"" $$args
-LiveCodingConsole.commands = $$build LiveCodingConsole Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-DsymExporter-Linux-Debug.commands = $$build DsymExporter Linux Debug  -project="\"$$gameProjectFile\"" $$args
-DsymExporter-Linux-DebugGame.commands = $$build DsymExporter Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-DsymExporter-Linux-Shipping.commands = $$build DsymExporter Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-DsymExporter-Linux-Test.commands = $$build DsymExporter Linux Test  -project="\"$$gameProjectFile\"" $$args
-DsymExporter.commands = $$build DsymExporter Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-UE4EditorServices-Linux-Debug.commands = $$build UE4EditorServices Linux Debug  -project="\"$$gameProjectFile\"" $$args
-UE4EditorServices-Linux-DebugGame.commands = $$build UE4EditorServices Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-UE4EditorServices-Linux-Shipping.commands = $$build UE4EditorServices Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-UE4EditorServices-Linux-Test.commands = $$build UE4EditorServices Linux Test  -project="\"$$gameProjectFile\"" $$args
-UE4EditorServices.commands = $$build UE4EditorServices Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-UnrealAtoS-Linux-Debug.commands = $$build UnrealAtoS Linux Debug  -project="\"$$gameProjectFile\"" $$args
-UnrealAtoS-Linux-DebugGame.commands = $$build UnrealAtoS Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-UnrealAtoS-Linux-Shipping.commands = $$build UnrealAtoS Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-UnrealAtoS-Linux-Test.commands = $$build UnrealAtoS Linux Test  -project="\"$$gameProjectFile\"" $$args
-UnrealAtoS.commands = $$build UnrealAtoS Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-MayaLiveLinkPlugin2016-Linux-Debug.commands = $$build MayaLiveLinkPlugin2016 Linux Debug  -project="\"$$gameProjectFile\"" $$args
-MayaLiveLinkPlugin2016-Linux-DebugGame.commands = $$build MayaLiveLinkPlugin2016 Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-MayaLiveLinkPlugin2016-Linux-Shipping.commands = $$build MayaLiveLinkPlugin2016 Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-MayaLiveLinkPlugin2016-Linux-Test.commands = $$build MayaLiveLinkPlugin2016 Linux Test  -project="\"$$gameProjectFile\"" $$args
-MayaLiveLinkPlugin2016.commands = $$build MayaLiveLinkPlugin2016 Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-MayaLiveLinkPlugin2017-Linux-Debug.commands = $$build MayaLiveLinkPlugin2017 Linux Debug  -project="\"$$gameProjectFile\"" $$args
-MayaLiveLinkPlugin2017-Linux-DebugGame.commands = $$build MayaLiveLinkPlugin2017 Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-MayaLiveLinkPlugin2017-Linux-Shipping.commands = $$build MayaLiveLinkPlugin2017 Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-MayaLiveLinkPlugin2017-Linux-Test.commands = $$build MayaLiveLinkPlugin2017 Linux Test  -project="\"$$gameProjectFile\"" $$args
-MayaLiveLinkPlugin2017.commands = $$build MayaLiveLinkPlugin2017 Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-MayaLiveLinkPlugin2018-Linux-Debug.commands = $$build MayaLiveLinkPlugin2018 Linux Debug  -project="\"$$gameProjectFile\"" $$args
-MayaLiveLinkPlugin2018-Linux-DebugGame.commands = $$build MayaLiveLinkPlugin2018 Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-MayaLiveLinkPlugin2018-Linux-Shipping.commands = $$build MayaLiveLinkPlugin2018 Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-MayaLiveLinkPlugin2018-Linux-Test.commands = $$build MayaLiveLinkPlugin2018 Linux Test  -project="\"$$gameProjectFile\"" $$args
-MayaLiveLinkPlugin2018.commands = $$build MayaLiveLinkPlugin2018 Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-MinidumpDiagnostics-Linux-Debug.commands = $$build MinidumpDiagnostics Linux Debug  -project="\"$$gameProjectFile\"" $$args
-MinidumpDiagnostics-Linux-DebugGame.commands = $$build MinidumpDiagnostics Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-MinidumpDiagnostics-Linux-Shipping.commands = $$build MinidumpDiagnostics Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-MinidumpDiagnostics-Linux-Test.commands = $$build MinidumpDiagnostics Linux Test  -project="\"$$gameProjectFile\"" $$args
-MinidumpDiagnostics.commands = $$build MinidumpDiagnostics Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-WebRTCProxy-Linux-Debug.commands = $$build WebRTCProxy Linux Debug  -project="\"$$gameProjectFile\"" $$args
-WebRTCProxy-Linux-DebugGame.commands = $$build WebRTCProxy Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-WebRTCProxy-Linux-Shipping.commands = $$build WebRTCProxy Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-WebRTCProxy-Linux-Test.commands = $$build WebRTCProxy Linux Test  -project="\"$$gameProjectFile\"" $$args
-WebRTCProxy.commands = $$build WebRTCProxy Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-ShaderCompileWorker-Linux-Debug.commands = $$build ShaderCompileWorker Linux Debug  -project="\"$$gameProjectFile\"" $$args
-ShaderCompileWorker-Linux-DebugGame.commands = $$build ShaderCompileWorker Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-ShaderCompileWorker-Linux-Shipping.commands = $$build ShaderCompileWorker Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-ShaderCompileWorker-Linux-Test.commands = $$build ShaderCompileWorker Linux Test  -project="\"$$gameProjectFile\"" $$args
-ShaderCompileWorker.commands = $$build ShaderCompileWorker Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-SlateViewer-Linux-Debug.commands = $$build SlateViewer Linux Debug  -project="\"$$gameProjectFile\"" $$args
-SlateViewer-Linux-DebugGame.commands = $$build SlateViewer Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-SlateViewer-Linux-Shipping.commands = $$build SlateViewer Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-SlateViewer-Linux-Test.commands = $$build SlateViewer Linux Test  -project="\"$$gameProjectFile\"" $$args
-SlateViewer.commands = $$build SlateViewer Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-SymbolDebugger-Linux-Debug.commands = $$build SymbolDebugger Linux Debug  -project="\"$$gameProjectFile\"" $$args
-SymbolDebugger-Linux-DebugGame.commands = $$build SymbolDebugger Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-SymbolDebugger-Linux-Shipping.commands = $$build SymbolDebugger Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-SymbolDebugger-Linux-Test.commands = $$build SymbolDebugger Linux Test  -project="\"$$gameProjectFile\"" $$args
-SymbolDebugger.commands = $$build SymbolDebugger Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-TestPAL-Linux-Debug.commands = $$build TestPAL Linux Debug  -project="\"$$gameProjectFile\"" $$args
-TestPAL-Linux-DebugGame.commands = $$build TestPAL Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-TestPAL-Linux-Shipping.commands = $$build TestPAL Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-TestPAL-Linux-Test.commands = $$build TestPAL Linux Test  -project="\"$$gameProjectFile\"" $$args
-TestPAL.commands = $$build TestPAL Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-UnrealCEFSubProcess-Linux-Debug.commands = $$build UnrealCEFSubProcess Linux Debug  -project="\"$$gameProjectFile\"" $$args
-UnrealCEFSubProcess-Linux-DebugGame.commands = $$build UnrealCEFSubProcess Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-UnrealCEFSubProcess-Linux-Shipping.commands = $$build UnrealCEFSubProcess Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-UnrealCEFSubProcess-Linux-Test.commands = $$build UnrealCEFSubProcess Linux Test  -project="\"$$gameProjectFile\"" $$args
-UnrealCEFSubProcess.commands = $$build UnrealCEFSubProcess Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-UnrealFileServer-Linux-Debug.commands = $$build UnrealFileServer Linux Debug  -project="\"$$gameProjectFile\"" $$args
-UnrealFileServer-Linux-DebugGame.commands = $$build UnrealFileServer Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-UnrealFileServer-Linux-Shipping.commands = $$build UnrealFileServer Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-UnrealFileServer-Linux-Test.commands = $$build UnrealFileServer Linux Test  -project="\"$$gameProjectFile\"" $$args
-UnrealFileServer.commands = $$build UnrealFileServer Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-UnrealFrontend-Linux-Debug.commands = $$build UnrealFrontend Linux Debug  -project="\"$$gameProjectFile\"" $$args
-UnrealFrontend-Linux-DebugGame.commands = $$build UnrealFrontend Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-UnrealFrontend-Linux-Shipping.commands = $$build UnrealFrontend Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-UnrealFrontend-Linux-Test.commands = $$build UnrealFrontend Linux Test  -project="\"$$gameProjectFile\"" $$args
-UnrealFrontend.commands = $$build UnrealFrontend Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-UnrealHeaderTool-Linux-Debug.commands = $$build UnrealHeaderTool Linux Debug  -project="\"$$gameProjectFile\"" $$args
-UnrealHeaderTool-Linux-DebugGame.commands = $$build UnrealHeaderTool Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-UnrealHeaderTool-Linux-Shipping.commands = $$build UnrealHeaderTool Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-UnrealHeaderTool-Linux-Test.commands = $$build UnrealHeaderTool Linux Test  -project="\"$$gameProjectFile\"" $$args
-UnrealHeaderTool.commands = $$build UnrealHeaderTool Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-UnrealLightmass-Linux-Debug.commands = $$build UnrealLightmass Linux Debug  -project="\"$$gameProjectFile\"" $$args
-UnrealLightmass-Linux-DebugGame.commands = $$build UnrealLightmass Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-UnrealLightmass-Linux-Shipping.commands = $$build UnrealLightmass Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-UnrealLightmass-Linux-Test.commands = $$build UnrealLightmass Linux Test  -project="\"$$gameProjectFile\"" $$args
-UnrealLightmass.commands = $$build UnrealLightmass Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-UnrealMultiUserServer-Linux-Debug.commands = $$build UnrealMultiUserServer Linux Debug  -project="\"$$gameProjectFile\"" $$args
-UnrealMultiUserServer-Linux-DebugGame.commands = $$build UnrealMultiUserServer Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-UnrealMultiUserServer-Linux-Shipping.commands = $$build UnrealMultiUserServer Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-UnrealMultiUserServer-Linux-Test.commands = $$build UnrealMultiUserServer Linux Test  -project="\"$$gameProjectFile\"" $$args
-UnrealMultiUserServer.commands = $$build UnrealMultiUserServer Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-UnrealPak-Linux-Debug.commands = $$build UnrealPak Linux Debug  -project="\"$$gameProjectFile\"" $$args
-UnrealPak-Linux-DebugGame.commands = $$build UnrealPak Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-UnrealPak-Linux-Shipping.commands = $$build UnrealPak Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-UnrealPak-Linux-Test.commands = $$build UnrealPak Linux Test  -project="\"$$gameProjectFile\"" $$args
-UnrealPak.commands = $$build UnrealPak Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-UnrealVersionSelector-Linux-Debug.commands = $$build UnrealVersionSelector Linux Debug  -project="\"$$gameProjectFile\"" $$args
-UnrealVersionSelector-Linux-DebugGame.commands = $$build UnrealVersionSelector Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-UnrealVersionSelector-Linux-Shipping.commands = $$build UnrealVersionSelector Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-UnrealVersionSelector-Linux-Test.commands = $$build UnrealVersionSelector Linux Test  -project="\"$$gameProjectFile\"" $$args
-UnrealVersionSelector.commands = $$build UnrealVersionSelector Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-UnrealWatchdog-Linux-Debug.commands = $$build UnrealWatchdog Linux Debug  -project="\"$$gameProjectFile\"" $$args
-UnrealWatchdog-Linux-DebugGame.commands = $$build UnrealWatchdog Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-UnrealWatchdog-Linux-Shipping.commands = $$build UnrealWatchdog Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-UnrealWatchdog-Linux-Test.commands = $$build UnrealWatchdog Linux Test  -project="\"$$gameProjectFile\"" $$args
-UnrealWatchdog.commands = $$build UnrealWatchdog Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-BootstrapPackagedGame-Linux-Debug.commands = $$build BootstrapPackagedGame Linux Debug  -project="\"$$gameProjectFile\"" $$args
-BootstrapPackagedGame-Linux-DebugGame.commands = $$build BootstrapPackagedGame Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-BootstrapPackagedGame-Linux-Shipping.commands = $$build BootstrapPackagedGame Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-BootstrapPackagedGame-Linux-Test.commands = $$build BootstrapPackagedGame Linux Test  -project="\"$$gameProjectFile\"" $$args
-BootstrapPackagedGame.commands = $$build BootstrapPackagedGame Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-UE4Client-Linux-Debug.commands = $$build UE4Client Linux Debug  -project="\"$$gameProjectFile\"" $$args
-UE4Client-Linux-DebugGame.commands = $$build UE4Client Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-UE4Client-Linux-Shipping.commands = $$build UE4Client Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-UE4Client-Linux-Test.commands = $$build UE4Client Linux Test  -project="\"$$gameProjectFile\"" $$args
-UE4Client.commands = $$build UE4Client Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-UE4Editor-Linux-Debug.commands = $$build UE4Editor Linux Debug  -project="\"$$gameProjectFile\"" $$args
-UE4Editor-Linux-DebugGame.commands = $$build UE4Editor Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-UE4Editor-Linux-Shipping.commands = $$build UE4Editor Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-UE4Editor-Linux-Test.commands = $$build UE4Editor Linux Test  -project="\"$$gameProjectFile\"" $$args
-UE4Editor.commands = $$build UE4Editor Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-UE4Game-Linux-Debug.commands = $$build UE4Game Linux Debug  -project="\"$$gameProjectFile\"" $$args
-UE4Game-Linux-DebugGame.commands = $$build UE4Game Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-UE4Game-Linux-Shipping.commands = $$build UE4Game Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-UE4Game-Linux-Test.commands = $$build UE4Game Linux Test  -project="\"$$gameProjectFile\"" $$args
-UE4Game.commands = $$build UE4Game Linux Development  -project="\"$$gameProjectFile\"" $$args
-
-UE4Server-Linux-Debug.commands = $$build UE4Server Linux Debug  -project="\"$$gameProjectFile\"" $$args
-UE4Server-Linux-DebugGame.commands = $$build UE4Server Linux DebugGame  -project="\"$$gameProjectFile\"" $$args
-UE4Server-Linux-Shipping.commands = $$build UE4Server Linux Shipping  -project="\"$$gameProjectFile\"" $$args
-UE4Server-Linux-Test.commands = $$build UE4Server Linux Test  -project="\"$$gameProjectFile\"" $$args
-UE4Server.commands = $$build UE4Server Linux Development  -project="\"$$gameProjectFile\"" $$args
-
 QMAKE_EXTRA_TARGETS += \ 
-	MyBattleTank-Linux-Debug \
-	MyBattleTank-Linux-DebugGame \
-	MyBattleTank-Linux-Shipping \
-	MyBattleTank-Linux-Test \
-	MyBattleTank \
-	MyBattleTankEditor-Linux-Debug \
-	MyBattleTankEditor-Linux-DebugGame \
-	MyBattleTankEditor-Linux-Shipping \
-	MyBattleTankEditor-Linux-Test \
-	MyBattleTankEditor \
 	BlankProgram-Linux-Debug \
 	BlankProgram-Linux-DebugGame \
 	BlankProgram-Linux-Shipping \
@@ -387,3 +377,13 @@ QMAKE_EXTRA_TARGETS += \
 	UE4Server-Linux-Shipping \
 	UE4Server-Linux-Test \
 	UE4Server \
+	MyBattleTank-Linux-Debug \
+	MyBattleTank-Linux-DebugGame \
+	MyBattleTank-Linux-Shipping \
+	MyBattleTank-Linux-Test \
+	MyBattleTank \
+	MyBattleTankEditor-Linux-Debug \
+	MyBattleTankEditor-Linux-DebugGame \
+	MyBattleTankEditor-Linux-Shipping \
+	MyBattleTankEditor-Linux-Test \
+	MyBattleTankEditor \
